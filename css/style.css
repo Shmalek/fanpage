@@ -4,6 +4,7 @@ html {
 
 body {
     height: 100%;
+    background-color: aqua;
     
 }
 a {
@@ -12,8 +13,41 @@ a {
 
 .main {
     height: 100%;
+    background-image: url("https://i.pinimg.com/originals/cc/5e/e3/cc5ee3d1058d7779a7e84a8479a08209.jpg");
 }
 .social-image{
     width: 30px;
     margin: 15px;
 }
+
+.header{
+    
+    display:flex;
+    justify-content: center;
+    
+}
+
+.navbar{
+    
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer{
+    
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.rightPane{
+    
+    background-image: url();
+    
+}
+
+
+
+
+
