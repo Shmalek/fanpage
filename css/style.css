@@ -5,6 +5,8 @@ html {
 body {
     height: 100%;
     background-color: aqua;
+    font-family: 'Permanent Marker', cursive;
+
     
 }
 a {
@@ -24,6 +26,7 @@ a {
     
     display:flex;
     justify-content: center;
+    font-size: 80px;
     
 }
 
@@ -46,6 +49,45 @@ a {
     background-image: url();
     
 }
+
+.Links{
+    
+    font-size: 25px;
+    
+}
+
+.gallery{
+    
+    display:flex;
+
+    
+}
+
+.left{
+    
+    flex-direction:column;
+    width:50%;
+    
+}
+
+.right{
+    
+    flex-direction:column;
+    width:50%;
+    
+}
+
+.thumbnail-image{
+    
+    height:100px;
+    width:100px;
+    margin-top: 10%;
+    margin-left:40%;
+    margin-bottom: 10%;
+
+}
+
+
 
 
 
